@@ -1,0 +1,24 @@
+npx create-next-app@latest
+npx shadcn-ui@latest init 
+npx shadcn-ui@latest add button
+npm install uploadthing @uploadthing/react
+npx shadcn-ui@latest add sheet
+npx shadcn-ui@latest add separator
+npm install mongoose mongodb
+npm install svix
+npm install query-string
+
+//Clerk Auth
+npm install @clerk/nextjs
+
+
+Notes:
+WebHooks
+
+Event Triggering - Triggered a request
+Request with Payload -(Receives a request) It works on that request and passed it to Event Processing for process
+Event Processing - It process that request
+
+
+//WebHooks
+1. Enable WebHooks from Clerk Dashboard
